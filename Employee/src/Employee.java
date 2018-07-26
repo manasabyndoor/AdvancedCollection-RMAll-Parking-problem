@@ -16,13 +16,14 @@ public class Employee {
 	public void setMonthlyBasic(double a) {
 		 monthlyBasic=a;
 	}
-	
+	//to calculate annual basic
 	public double  getAnnualBasic()
 	{	
 		double annualBasics=monthlyBasic*12;
 		
 		return annualBasics;
 	}
+	//to calculate monthly gross salary
 	public double getMonthlyGrossSalary()
 	{
 		double conveyance=800,medical=1250;
@@ -30,16 +31,16 @@ public class Employee {
 	monthlyGrossSalary=monthlyBasic+hra+medical+conveyance;
 	return monthlyGrossSalary;
 	}
-
+	//to calculate monthlybasic
 	public double getMonthlyBasic() {
 		return monthlyBasic;
 	}
-	//to calculate annualgross salary
+	//to return annualgross salary
 	double getAnnualGrossSalary()
 	{
 		return monthlyGrossSalary*12;
 	}
-	
+	//to calculate monthly deductions
 	double getMonthlyDeductions()
 	{
 		double profTax = 0,pf;
@@ -69,14 +70,14 @@ public class Employee {
 		;
 		return  pf+esic+profTax;
 		}
+	//to calculate MonthlyTakeHome
 	double getMonthlyTakeHome() {
 		monthlyTakeHome=monthlyGrossSalary-monthlyDeduction;
 		return monthlyTakeHome;
 				
-				
-		// TODO Auto-generated method stub
-		//return;
+		
 	}
+	//to calculate annual take home
 	double getAnnualTakeHome() {
 		// TODO Auto-generated method stub
 		return 12*monthlyTakeHome;
