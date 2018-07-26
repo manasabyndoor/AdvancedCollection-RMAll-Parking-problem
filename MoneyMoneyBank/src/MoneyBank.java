@@ -1,4 +1,4 @@
-
+//program for performing withdraw and deposit function
 public class MoneyBank {
 	static int accountnumber;
 	double accountbalance;
