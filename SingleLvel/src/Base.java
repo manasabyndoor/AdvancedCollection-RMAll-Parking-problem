@@ -1,4 +1,4 @@
-
+//Base class
 public class Base {
 	static int x;
 public void Base(int x) {
