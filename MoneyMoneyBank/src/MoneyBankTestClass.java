@@ -5,7 +5,7 @@ public class MoneyBankTestClass {
 
 		MoneyBank moneybank = new MoneyBank(0, 10000, null);
 		Scanner scanner = new Scanner(System.in);
-
+		//reading inputs from user
 		System.out.println("Enter name and initial balance to open the account");
 		String name = scanner.nextLine();
 		double balance = scanner.nextDouble();
@@ -24,7 +24,7 @@ public class MoneyBankTestClass {
 
 		int choice;
 		choice = scanner.nextInt();
-
+		//calling methods based on user's choice
 		switch (choice) {
 		case 1:
 			System.out.println("Balance=" + moneybank.getAccountbalance());
