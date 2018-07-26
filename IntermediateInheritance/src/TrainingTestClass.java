@@ -1,4 +1,4 @@
-
+//inheritance program
 public class TrainingTestClass {
 	public static void main(String args[]) {
 		int cost;
