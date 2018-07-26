@@ -7,7 +7,7 @@ public class EployeeTestClass {
 		Employee employee1 = new Employee();
 		Employee employee2 = new Employee();
 		String Name;
-
+		//to read input from user
 		System.out.println("Enter employee id");
 		employee1.id = scanner.nextInt();
 
@@ -18,7 +18,7 @@ public class EployeeTestClass {
 		employee1.monthlyBasic = scanner.nextDouble();
 
 		employee1.setMonthlyBasic(employee1.monthlyBasic);
-		double annual = employee1.getAnnualBasic();
+		double annual = employee1.getAnnualBasic();//calling annualbasic function 
 		System.out.println("annual=" + annual);
 		System.out.println("MonthlyGrossSalary=" + employee1.getMonthlyGrossSalary());
 		System.out.println("MonthlyDeduction=" + employee1.getMonthlyDeductions());
