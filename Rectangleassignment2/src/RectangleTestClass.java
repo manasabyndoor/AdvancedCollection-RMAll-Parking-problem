@@ -10,7 +10,7 @@ public class RectangleTestClass {
 		rect2.length = 1;
 		int area1 = 0;
 		int area2 = 0;
-
+		//calling area method using objects
 		area1 = rect1.area(rect1.breadth, rect1.length);
 		area2 = rect2.area(rect2.breadth, rect2.length);
 		// area2=rect2.breadth*rect2.length;
