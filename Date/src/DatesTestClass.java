@@ -8,7 +8,7 @@ public class DatesTestClass {
 	public static void main(String args[]) throws Exception {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the date of birth in DD/MM/YYYY format");
-
+	//reads the input from user
 		String input = scanner.nextLine();
 		scanner.close();
 
