@@ -13,9 +13,11 @@ public class Television {
 		System.out.println("Volume="+this.volume);
 		System.out.println("Volume="+this.channel);
 	}
+	//returns the initial state
 	public String getState() {
 		return this.state;
 	}
+	//sets the state entered by user
 	public String setState(String state) {
 		
 		return this.state = state;
@@ -33,10 +35,12 @@ public class Television {
 		// TODO Auto-generated method stub
 		return this.volume;
 	}
+	//increments volume
 	public int IncrementVolume(){
 		return this.volume++;
 		
 	}
+	//decrements volume
 	public int DecrementVolume(){
 		return this.volume--;
 		
