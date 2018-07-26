@@ -10,7 +10,7 @@ public class Duplicate {
 		int length = word.length();
 		char ch;
 		String answer = "";
-		
+		//finding for duplicate
 		for (int i = 0; i < length; i++) {
 			ch = word.charAt(i);
 			if (ch != ' ')
