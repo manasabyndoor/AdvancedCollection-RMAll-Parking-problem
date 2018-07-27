@@ -1,4 +1,4 @@
-
+//program to check triangle type
 public class Triangle {
 
 	private int side1;
