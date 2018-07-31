@@ -1,15 +1,13 @@
-////SavingAccount class
+//SavingAccount class
 package com.collection;
 
-public class SavingAccount  {
+public class SavingAccount {
 
-	
 	private double acc_balance;
 	private int acc_ID;
 	private String name;
 	private boolean isSalary;
 
-	
 	@Override
 	public String toString() {
 		return "SavingAccount [acc_balance=" + acc_balance + ", acc_ID=" + acc_ID + ", name=" + name + ", isSalary="
@@ -52,7 +50,6 @@ public class SavingAccount  {
 		return true;
 	}
 
-	
 	public SavingAccount(double d, int acc_ID, String name, boolean isSalary) {
 		super();
 		this.acc_balance = d;
@@ -60,50 +57,45 @@ public class SavingAccount  {
 		this.name = name;
 		this.isSalary = isSalary;
 	}
-	
+
 	public double getAcc_balance() {
 		return acc_balance;
 	}
-	
+
 	public void setAcc_balance(int acc_balance) {
 		this.acc_balance = acc_balance;
 	}
-	
+
 	public int getAcc_ID() {
 		return acc_ID;
 	}
-	
+
 	public void setAcc_ID(int acc_ID) {
 		this.acc_ID = acc_ID;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
-	
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public boolean isSalary() {
 		return isSalary;
 	}
-	
+
 	public void setSalary(boolean isSalary) {
 		this.isSalary = isSalary;
 	}
-	
-	
-	public double withdraw(double amt)
-	{
-		return acc_balance;
-	}
-	
-	public double deposit(double amt)
-	{
+
+	public double withdraw(double amt) {
 		return acc_balance;
 	}
 
-	
-	
+	public double deposit(double amt) {
+		return acc_balance;
+	}
+
 }
