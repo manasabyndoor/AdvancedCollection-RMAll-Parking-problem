@@ -1,10 +1,14 @@
 package com.collections;
+
 //Location class
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
 public class Location {
+	
+	
 	int token = 0;
 	int section = 1;
 	int floor = 1;
@@ -19,6 +23,7 @@ public class Location {
 				+ " with token no=" + token);
 	}
 
+	// function for checking space to park
 	public void verify() {
 		token++;
 		if (token > 2) {

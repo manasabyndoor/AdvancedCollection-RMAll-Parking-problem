@@ -17,6 +17,7 @@ public class Parked_CarOwner_Details {
 		return "Parked_CarOwner_Details [ownerName=" + ownerName + ", carModel=" + carModel + ", carNo=" + carNo
 				+ ", ownerMobileNo=" + ownerMobileNo + ", ownerAddress=" + ownerAddress + "]";
 	}
+	// getters and setters
 
 	public void setOwnerName(String ownerName) {
 		this.ownerName = ownerName;
@@ -54,6 +55,7 @@ public class Parked_CarOwner_Details {
 		this.ownerAddress = ownerAddress;
 	}
 
+	// constructor
 	public Parked_CarOwner_Details(String ownerName, int carModel, String carNo, long ownerMobileNo,
 			String ownerAddress) {
 		super();
